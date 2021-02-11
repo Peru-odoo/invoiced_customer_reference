@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="invoices_report_inherit" inherit_id="account.report_invoice_document">
+
+        <!-- Suppression du champ "Référence Client" dans la top bar-->
+         <xpath expr="//div[@name='reference']" position="replace">
+          <field name="reference" invisible="1"/>
+        </xpath>
+
+        <!--MODIFICATION DE TABLE-->
+        <!--Ajout du t-head Référence Client-->
+        <xpath expr="//t/t/div/table[1]/thead/tr/th[1]" position="after">
+            <th name="th_ref_client" class="text-right"><span>Référence Client</span></th>
+        </xpath>
+
+        <!--Ajout du t-body Référence Client-->
+        <xpath expr="//t/t/div/table[1]/tbody/t/tr/t/td[1]" position="after">
+            <td name="account_invoice_line_ref_client" class="text-right">
+                 <span class="text-nowrap" t-field="line.client_ref"/>
+            </td>
+        </xpath>
+    </template>
+
+</odoo>
