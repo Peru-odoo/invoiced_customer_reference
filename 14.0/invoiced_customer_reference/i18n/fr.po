@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* invoiced_customer_reference
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-11 16:30+0000\n"
+"PO-Revision-Date: 2021-02-11 16:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: invoiced_customer_reference
+#: model_terms:ir.ui.view,arch_db:invoiced_customer_reference.invoices_report_inherit
+msgid "<span>Référence Client</span>"
+msgstr "<span>Référence Client</span>"
+
+#. module: invoiced_customer_reference
+#: model_terms:ir.ui.view,arch_db:invoiced_customer_reference.view_quotation_tree_inherited
+msgid "Client"
+msgstr "Client"
+
+#. module: invoiced_customer_reference
+#: model_terms:ir.ui.view,arch_db:invoiced_customer_reference.view_quotation_tree_inherited
+msgid "Date du devis"
+msgstr "Date du devis"
+
+#. module: invoiced_customer_reference
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order__display_name
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: invoiced_customer_reference
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_account_move_line__id
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order__id
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: invoiced_customer_reference
+#: model:ir.model,name:invoiced_customer_reference.model_account_move_line
+msgid "Journal Item"
+msgstr "Journal Item"
+
+#. module: invoiced_customer_reference
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order____last_update
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Récemment modifié le "
+
+#. module: invoiced_customer_reference
+#: model:ir.model.fields,field_description:invoiced_customer_reference.field_sale_order__client_order_ref
+msgid "Reference Client"
+msgstr "Référence Client"
+
+#. module: invoiced_customer_reference
+#: model_terms:ir.ui.view,arch_db:invoiced_customer_reference.view_bdc_tree_inherited
+#: model_terms:ir.ui.view,arch_db:invoiced_customer_reference.view_quotation_form_inherited
+#: model_terms:ir.ui.view,arch_db:invoiced_customer_reference.view_quotation_tree_inherited
+msgid "Référence client"
+msgstr "Référence Client"
+
+#. module: invoiced_customer_reference
+#: model:ir.model,name:invoiced_customer_reference.model_sale_order
+msgid "Sales Order"
+msgstr "Sales Order"
+
+#. module: invoiced_customer_reference
+#: model:ir.model,name:invoiced_customer_reference.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Sales Order Line"
