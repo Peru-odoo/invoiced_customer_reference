@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Invoiced Customer Reference",
+    'name': "Invoice Customer Reference",
     'version': '1.2',
     'license': 'OPL-1',
     'category': 'Invoicing',
-    'summary': ' Invoiced Customer Reference allows you to have the associated customer reference on each invoice line '
+    'summary': ' Invoice Customer Reference allows you to have the associated customer reference on each invoice line '
                'when creating a report. Ideal, when you want to combine two invoices.',
     'description': """
         -------------------------------------------------------------------------
